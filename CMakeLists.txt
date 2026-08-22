@@ -12,6 +12,8 @@ find_package(glfw3 REQUIRED)
 add_executable(OpenGLProject
     src/main.cpp
     src/glad.c
+    src/shader.h
+    src/shader.cpp
 )
 
 # Tell the compiler where to find GLAD headers
