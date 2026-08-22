@@ -14,6 +14,7 @@ add_executable(OpenGLProject
     src/glad.c
     src/shader.h
     src/shader.cpp
+    src/stb_image.h
 )
 
 # Tell the compiler where to find GLAD headers
