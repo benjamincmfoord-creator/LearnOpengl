@@ -13,6 +13,7 @@ add_executable(OpenGLProject
     src/shader.cpp
     src/shader.h
     src/stb_image.h
+    src/camera.cpp
 )
 
 target_include_directories(OpenGLProject PRIVATE
